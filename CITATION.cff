@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: "@three-ws/agenc"
+abstract: "Client for the AgenC agent-coordination protocol on Solana — discover tasks, read task status + lifecycle, and look up the agent registry in one import."
+type: software
+authors:
+  - name: three.ws contributors
+repository-code: "https://github.com/nirholas/agenc"
+url: "https://nirholas.github.io/agenc/"
+license: Apache-2.0
+version: 0.1.2

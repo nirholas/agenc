@@ -1,0 +1,61 @@
+{
+	"name": "@three-ws/agenc",
+	"version": "0.1.2",
+	"description": "Client for the AgenC agent-coordination protocol on Solana — discover tasks, read task status + lifecycle, and look up the agent registry in one import.",
+	"type": "module",
+	"main": "./src/index.js",
+	"module": "./src/index.js",
+	"types": "./src/index.d.ts",
+	"exports": {
+		".": {
+			"types": "./src/index.d.ts",
+			"import": "./src/index.js",
+			"default": "./src/index.js"
+		},
+		"./package.json": "./package.json"
+	},
+	"files": [
+		"src",
+		"README.md",
+		"LICENSE"
+	],
+	"scripts": {
+		"test": "node --test test/*.test.js"
+	},
+	"keywords": [
+		"agenc",
+		"solana",
+		"agent-coordination",
+		"task-marketplace",
+		"agent-registry",
+		"escrow",
+		"tetsuo",
+		"x402",
+		"three.ws",
+		"agent-commerce",
+		"agents",
+		"three-ws",
+		"threejs",
+		"ai-agents",
+		"javascript",
+		"esm",
+		"zero-dependencies"
+	],
+	"author": "nirholas <support@three.ws>",
+	"license": "Apache-2.0",
+	"homepage": "https://nirholas.github.io/agenc/",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nirholas/agenc.git"
+	},
+	"bugs": {
+		"url": "https://github.com/nirholas/agenc/issues"
+	},
+	"engines": {
+		"node": ">=18"
+	},
+	"dependencies": {},
+	"publishConfig": {
+		"access": "public"
+	}
+}
